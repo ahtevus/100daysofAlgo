@@ -1,5 +1,2 @@
-var array= new Array(5);
-
-array.fill(5,0,3);
-
-console.log(array);
+var array=[1,2,3,4,5]
+console.log(Math.max(...array));

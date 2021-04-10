@@ -7,3 +7,6 @@ toFixed(n)
 const arr1 = new Array(10); 
 //fill elements in array - only if the array has values or size has been declared
 array.fill(largest,0,3); //fills - 0,1,2, total = 3-0
+//to find the maximum in the given set or array
+Math.max(5, 10);
+Math.max(...array);
