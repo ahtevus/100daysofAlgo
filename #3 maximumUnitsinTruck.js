@@ -11,6 +11,7 @@ boxTypes = [[1,3],[2,2],[3,1]];
 truckSize = 4;
 console.log(maximumUnits(boxTypes, truckSize));
 
+//SOlution 01 -Sort the input array by decreasing number of "units per box"
 function maximumUnits(boxTypes, truckSize) {
     boxTypes.sort(function(a,b){return (a[1] < b[1]) ? 1 : -1;}); //sorts the 2D array based on 2nd value decreasingly
     let i=0;
@@ -27,3 +28,17 @@ function maximumUnits(boxTypes, truckSize) {
     }
     return ans;
 };
+
+//Solution 02 - better than Solution 01
+
+function maximumUnits(boxTypes, truckSize) {
+    boxTypes.sort((a, b) => b[1] - a[1]);
+    let best = 0;
+    for (let [boxes, units] of boxTypes) {
+        let take = Math.min(truckSize, boxes);
+        best += take * units;
+        truckSize -= take;
+    }
+    return best;
+};
+

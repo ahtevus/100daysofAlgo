@@ -30,3 +30,8 @@ array.sort(ascending);
 // If the result is negative a is sorted before b.
 // If the result is positive b is sorted before a.
 // If the result is 0 no changes are done with the sort order of the two values.
+
+//sorting 2D array based on nth value -> [[1,2],[2,3],[5,4]]
+array.sort((a, b) => b[n] - a[n]);
+//for loop a 2D array to length
+for (let [boxes, units] of array) { };
