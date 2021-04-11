@@ -1,3 +1,4 @@
+//GRAMMAR
 
 //to convert to integer, float
 parseInt(), parseFloat()  
@@ -21,3 +22,11 @@ let left = 0; right = array.length - 1;
 while (left < right) { 
     /*does something only half of times - if array lenght is 5, it runs 2 times.*/
 }
+
+//compare function
+function ascending(a, b){return a - b}
+array.sort(ascending);
+//When comparing 40 and 100, the sort() method calls the compare function(40, 100).
+// If the result is negative a is sorted before b.
+// If the result is positive b is sorted before a.
+// If the result is 0 no changes are done with the sort order of the two values.
