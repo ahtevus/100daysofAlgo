@@ -1,2 +1,0 @@
-# 100daysofAlgo
-Coding Practise
