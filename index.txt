@@ -3,3 +3,4 @@
 #3 MaximumUnitscanbeloadedtoTruck - Array - 11/04/2021 - Leetcode 1710 - easy
 #4 LongestValidParantheses - String - 12/04/2021 - Leetcode monthly - easy
 #5 twoSum - Array - 13/04/2021 - Leetcode 01 - easy
+#6 kidsWithGreaterNumberOfCandies - Array - 13/04/2021 - Leetcode 1431 - easy
