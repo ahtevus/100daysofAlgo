@@ -1,4 +1,5 @@
 #1 GreatestElementonRightSide - Array - 10/04/2021 - Leetcode 1299 - easy
 #2 ReverseanArray - Array - 11/04/2021 - Leetcode 344 - easy
 #3 MaximumUnitscanbeloadedtoTruck - Array - 11/04/2021 - Leetcode 1710 - easy
-#4 LongestValidParantheses - String - 12/04/2021 - Leetcode - easy
+#4 LongestValidParantheses - String - 12/04/2021 - Leetcode monthly - easy
+#5 twoSum - Array - 13/04/2021 - Leetcode 01 - easy
