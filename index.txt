@@ -4,3 +4,6 @@
 #4 LongestValidParantheses - String - 12/04/2021 - Leetcode monthly - easy
 #5 twoSum - Array - 13/04/2021 - Leetcode 01 - easy
 #6 kidsWithGreaterNumberOfCandies - Array - 13/04/2021 - Leetcode 1431 - easy
+#7 shuffleArray - Array - 14/04/2021 - Leetcode 1470 - easy
+#8 numberOfGoodPairs - Array - 14/04/2021 - Leetcode 1512 - easy
+#9 howManyNumbersAreSmallerThanCurrentNumber - Array - 15/04/2021 - Leetcode 1365 - easy
