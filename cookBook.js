@@ -35,6 +35,11 @@ const sorted = [...nums].sort((a, b) => a - b); //this will only copy the elemen
 //IndexOF
 array.indexOf(element); //returns the index of only first occurrence
 
+//Reduce - below example gives output of 10 (4 internal operations)
+[0, 1, 2, 3, 4].reduce(function(accumulator, currentValue, currentIndex, array) {
+    return accumulator + currentValue
+  })
+
 
 
 //TECHNIQUES---------------------------------------------------------------------------------
