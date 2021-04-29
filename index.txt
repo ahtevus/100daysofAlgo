@@ -7,3 +7,4 @@
 #7 shuffleArray - Array - 14/04/2021 - Leetcode 1470 - easy
 #8 numberOfGoodPairs - Array - 14/04/2021 - Leetcode 1512 - easy
 #9 howManyNumbersAreSmallerThanCurrentNumber - Array - 15/04/2021 - Leetcode 1365 - easy
+#10 Create Target Array in the Given Order - Array - 29/04/2021 - Leetcode 1389 - easy
