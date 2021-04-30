@@ -64,3 +64,7 @@ let array = [0,1,2,3,4,5];
 for(let number of array) {
   console.log(number);
 }
+
+//usage of Spread Operator along with fill
+let result = [];
+result.push(...new Array(frequency).fill(value))
